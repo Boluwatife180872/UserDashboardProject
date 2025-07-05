@@ -1,7 +1,14 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { signInWithEmailAndPassword } from "firebase/auth";
+import {
+  signInWithPopup,
+  GoogleAuthProvider,
+  FacebookAuthProvider,
+} from "firebase/auth";
 import { auth } from "./config";
+
+const provider = new GoogleAuthProvider();
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
@@ -15,6 +22,31 @@ export default function LoginPage() {
     } catch (error) {
       alert(error.message);
     }
+  };
+
+  const handleGoogleLogin = async () => {
+    try {
+      await signInWithPopup(auth, new GoogleAuthProvider());
+      navigate("/dashboard");
+    } catch (error) {
+      alert(error.message);
+    }
+  };
+
+  const handleFacebookLogin = async () => {
+    try {
+      await signInWithPopup(auth, new FacebookAuthProvider());
+      navigate("/dashboard");
+    } catch (error) {
+      alert(error.message);
+    }
+  };
+
+  // Optional: Dummy Apple login or placeholder
+  const handleAppleLogin = () => {
+    alert(
+      "Apple login for web requires advanced setup (usually for iOS/macOS apps)."
+    );
   };
 
   return (
@@ -48,9 +80,24 @@ export default function LoginPage() {
         {/* Social icons */}
         <div style={styles.leftAlign}>
           <div style={styles.socialRow}>
-            <img src="/assets/apple.png" alt="Apple" style={styles.icon} />
-            <img src="/assets/face.png" alt="Facebook" style={styles.icon} />
-            <img src="/assets/Google.png" alt="Google" style={styles.icon} />
+            <img
+              src="/assets/apple.png"
+              alt="Apple"
+              style={styles.icon}
+              onClick={handleAppleLogin}
+            />
+            <img
+              src="/assets/face.png"
+              alt="Facebook"
+              style={styles.icon}
+              onClick={handleFacebookLogin}
+            />
+            <img
+              src="/assets/Google.png"
+              alt="Google"
+              style={styles.icon}
+              onClick={handleGoogleLogin}
+            />
           </div>
 
           <p style={styles.dividerText}>or login with email</p>
