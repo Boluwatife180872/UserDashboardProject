@@ -152,7 +152,7 @@ const Dashboard = () => {
           <div className="user-avatar">
             <img
               className="profilePic"
-              src="src/assets/pic 1.png"
+              src="/assets/pic1.png"
               alt="Profile"
             />
           </div>
