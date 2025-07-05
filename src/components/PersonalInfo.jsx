@@ -113,7 +113,7 @@ export default function PersonalInfo() {
       </div>
       <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
         <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-          <img src="src\assets\IconInfo.png" alt="" />
+          <img src="/assets/IconInfo.png" alt="" />
           <div style={{ color: "gray", fontSize: "14px" }}>
             <b>This phone number and birthday are only visible to you</b>
           </div>

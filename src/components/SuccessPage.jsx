@@ -5,7 +5,7 @@ export default function SuccessPage() {
 
   return (
     <div style={styles.container}>
-      <img src="src\assets\Frame.png" alt="Success" style={styles.image} />
+      <img src="/assets/Frame.png" alt="Success" style={styles.image} />
       <h2 style={styles.message}>You are Successfully Registered!</h2>
       <button style={styles.button} onClick={() => navigate("/login")}>
         Go to Login

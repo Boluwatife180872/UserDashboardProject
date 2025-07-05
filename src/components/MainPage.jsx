@@ -92,7 +92,7 @@ const Dashboard = () => {
         <div className="sidebar-header">
           <div className="logo" onClick={toggleSidebar}>
             <div className="logo-icon">
-              <img src="src/assets/setting 1.png" alt="Profile" />
+              <img src="/assets/setting1.png" alt="Profile" />
             </div>
             <span className="logo-text">Dashboard</span>
             <span className="version">v.01</span>
@@ -102,41 +102,41 @@ const Dashboard = () => {
         <nav className="sidebar-nav">
           <div className="nav-item">
             <span className="nav-icon">
-              <img src="src/assets/List Menu.png" alt="Profile" />
+              <img src="/assets/ListMenu.png" alt="Profile" />
             </span>
             <span className="nav-text">Dashboard</span>
           </div>
           <div className="nav-item">
             <span className="nav-icon">
-              <img src="src/assets/List Menu (1).png" alt="Profile" />
+              <img src="/assets/ListMenu(1).png" alt="Profile" />
             </span>
             <span className="nav-text">Product</span>
             <span className="nav-arrow">›</span>
           </div>
           <div className="nav-item active">
             <span className="nav-icon">
-              <img src="src/assets/List Menu (2).png" alt="Profile" />
+              <img src="/assets/ListMenu(2).png" alt="Profile" />
             </span>
             <span className="nav-text">Customers</span>
             <span className="nav-arrow">›</span>
           </div>
           <div className="nav-item">
             <span className="nav-icon">
-              <img src="src/assets/List Menu (3).png" alt="Profile" />
+              <img src="/assets/ListMenu(3).png" alt="Profile" />
             </span>
             <span className="nav-text">Income</span>
             <span className="nav-arrow">›</span>
           </div>
           <div className="nav-item">
             <span className="nav-icon">
-              <img src="src/assets/List Menu (4).png" alt="Profile" />
+              <img src="/assets/ListMenu(4).png" alt="Profile" />
             </span>
             <span className="nav-text">Promote</span>
             <span className="nav-arrow">›</span>
           </div>
           <div className="nav-item">
             <span className="nav-icon">
-              <img src="src/assets/List Menu (5).png" alt="Profile" />
+              <img src="/assets/ListMenu(5).png" alt="Profile" />
             </span>
             <span className="nav-text">Help</span>
             <span className="nav-arrow">›</span>
@@ -174,14 +174,14 @@ const Dashboard = () => {
         <header className="header">
           <div className="header-left">
             <button className="mobile-menu-btn" onClick={toggleSidebar}>
-              <img src="src/assets/setting 1.png" alt="Profile" />
+              <img src="/assets/setting1.png" alt="Profile" />
             </button>
             <h1>Hello {shortName} 👋,</h1>
           </div>
           <div className="search-bar">
             <input type="text" placeholder="Search" />
             <span className="search-icon">
-              <img src="src/assets/search 1.png" alt="Profile" />
+              <img src="/assets/search1.png" alt="Profile" />
             </span>
           </div>
         </header>
@@ -189,7 +189,7 @@ const Dashboard = () => {
         <div className="stats-grid">
           <div className="stat-card">
             <div className="stat-icon customers">
-              <img src="src/assets/Group 10.png" alt="Profile" />
+              <img src="/assets/Group10.png" alt="Profile" />
             </div>
             <div className="stat-content">
               <div className="stat-label">Total Customers</div>
@@ -199,7 +199,7 @@ const Dashboard = () => {
           </div>
           <div className="stat-card">
             <div className="stat-icon members">
-              <img src="src/assets/Group 10 (1).png" alt="Profile" />
+              <img src="/assets/Group10(1).png" alt="Profile" />
             </div>
             <div className="stat-content">
               <div className="stat-label">Members</div>
@@ -209,7 +209,7 @@ const Dashboard = () => {
           </div>
           <div className="stat-card">
             <div className="stat-icon active">
-              <img src="src/assets/Group 10 (2).png" alt="Profile" />
+              <img src="/assets/Group10(2).png" alt="Profile" />
             </div>
             <div className="stat-content">
               <div className="stat-label">Active Now</div>
@@ -218,35 +218,35 @@ const Dashboard = () => {
                 <div className="avatar">
                   <img
                     className="profilePic1"
-                    src="src/assets/pic 2.png"
+                    src="/assets/pic2.png"
                     alt="Profile"
                   />
                 </div>
                 <div className="avatar">
                   <img
                     className="profilePic1"
-                    src="src/assets/pic 3.png"
+                    src="/assets/pic3.png"
                     alt="Profile"
                   />
                 </div>
                 <div className="avatar">
                   <img
                     className="profilePic1"
-                    src="src/assets/pic 4.png"
+                    src="/assets/pic4.png"
                     alt="Profile"
                   />
                 </div>
                 <div className="avatar">
                   <img
                     className="profilePic1"
-                    src="src/assets/pic 5.png"
+                    src="/assets/pic5.png"
                     alt="Profile"
                   />
                 </div>
                 <div className="avatar">
                   <img
                     className="profilePic1"
-                    src="src/assets/pic 6.png"
+                    src="/assets/pic6.png"
                     alt="Profile"
                   />
                 </div>
@@ -265,7 +265,7 @@ const Dashboard = () => {
               <div className="search-box">
                 <input type="text" placeholder="Search" />
                 <span className="search-icon">
-                  <img src="src/assets/search 1.png" alt="Profile" />
+                  <img src="/assets/search1.png" alt="Profile" />
                 </span>
               </div>
               <div className="sort-dropdown">

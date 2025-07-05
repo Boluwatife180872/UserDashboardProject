@@ -48,9 +48,9 @@ export default function LoginPage() {
         {/* Social icons */}
         <div style={styles.leftAlign}>
           <div style={styles.socialRow}>
-            <img src="src\assets\apple.png" alt="Apple" style={styles.icon} />
-            <img src="src\assets\face.png" alt="Facebook" style={styles.icon} />
-            <img src="src\assets\Google.png" alt="Google" style={styles.icon} />
+            <img src="/assets/apple.png" alt="Apple" style={styles.icon} />
+            <img src="/assets/face.png" alt="Facebook" style={styles.icon} />
+            <img src="/assets/Google.png" alt="Google" style={styles.icon} />
           </div>
 
           <p style={styles.dividerText}>or login with email</p>

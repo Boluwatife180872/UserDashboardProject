@@ -104,7 +104,7 @@ export default function AuthPage() {
               onClick={() => handleSocialLogin(appleProvider)}
             /> */}
             <img
-              src="src\assets\apple.png"
+              src="/assets/apple.png"
               onClick={() => handleSocialLogin(appleProvider)}
               alt=""
             />
@@ -116,7 +116,7 @@ export default function AuthPage() {
               onClick={() => handleSocialLogin(facebookProvider)}
             /> */}
             <img
-              src="src\assets\face.png"
+              src="/assets/face.png"
               onClick={() => handleSocialLogin(facebookProvider)}
               alt=""
             />
@@ -128,7 +128,7 @@ export default function AuthPage() {
               onClick={() => handleSocialLogin(googleProvider)}
             /> */}
             <img
-              src="src\assets\Google.png"
+              src="/assets/Google.png"
               onClick={() => handleSocialLogin(googleProvider)}
               alt=""
             />
