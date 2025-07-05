@@ -1,0 +1,94 @@
+.container {
+  max-width: 400px;
+  max-width: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  background: #fff;
+  gap: 12px;
+}
+
+/* .title {
+  text-align: center;
+}
+
+.input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 2px solid black;
+}
+
+button {
+  padding: 10px;
+  color: #fff;
+  background-color: purple;
+  border: none;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+} */
+
+.title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #5932EA;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #4011e7;
+}
+
+.social-btn {
+  padding: 10px;
+  background-color: #e1e3e7;
+  color: white;
+  border: none;
+  border-radius: 50%;
+
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.passwordAdv {
+  text-align: left;
+  color: #666;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.checkbox {
+  text-align: left;
+  color: #242323;
+  font-size: 14px;
+  margin-top: 5px;
+}
